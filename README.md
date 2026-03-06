@@ -10,26 +10,26 @@ The Medicine Recommendation System is an AI-powered web application that suggest
 The goal of this project is to assist users in finding potential medicines for common symptoms, while encouraging consultation with healthcare professionals for proper medical advice.
 
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup  
 
-## 1️⃣ Clone the Repository
+## 1️⃣ Clone the Repository  
 
-git clone https://github.com/Riddhi0410/Medirec
+git clone https://github.com/Riddhi0410/Medirec  
 cd Medirec 
 
 ## 🔹 Backend Setup
-cd backend
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn server:app --reload
+cd backend  
+python -m venv venv  
+venv\Scripts\activate  
+pip install -r requirements.txt  
+uvicorn server:app --reload    
 
 Backend will run on:    http://localhost:8000
 
 ## 🔹 Frontend Setup
-cd frontend
-npm install
+cd frontend  
+npm install  
 npm start
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License.
